@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-04-24T16:15:42.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="PyR94_Mt2xDWzv2jFHWf" version="24.2.5" type="device">
+  <diagram name="Страница — 1" id="UGgssVRaf6yeg5YpuxeJ">
+    <mxGraphModel dx="2176" dy="2386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-1" value="Person" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="360" width="420" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-2" value="- name: string&lt;div&gt;- int: age&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="FUp5SoC3ctOy4zWgLU7d-1" vertex="1">
+          <mxGeometry y="26" width="420" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="FUp5SoC3ctOy4zWgLU7d-1" vertex="1">
+          <mxGeometry y="60" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-4" value="&lt;div&gt;+ Person()&lt;/div&gt;&lt;div&gt;+ Person(string, int)&lt;/div&gt;&lt;div&gt;+ Person(const Person&amp;amp;)&lt;/div&gt;&lt;div&gt;+ ~Person()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ GetName():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ GetAge():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ SetName(string):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ SetAge(int):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ operator=(const Person&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Person&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ operator&amp;gt;&amp;gt;(istream&amp;amp;, Person&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;friend istream&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ operator&amp;lt;&amp;lt;(ostream&amp;amp;, const Person&amp;amp;):&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;friend ostream&amp;amp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="FUp5SoC3ctOy4zWgLU7d-1" vertex="1">
+          <mxGeometry y="68" width="420" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-5" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="720" width="420" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-6" value="- subject: string&lt;div&gt;- grade: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="FUp5SoC3ctOy4zWgLU7d-5" vertex="1">
+          <mxGeometry y="26" width="420" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="FUp5SoC3ctOy4zWgLU7d-5" vertex="1">
+          <mxGeometry y="60" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-8" value="&lt;div&gt;+ Student()&lt;/div&gt;&lt;div&gt;+ Student(string, int, string, int)&lt;/div&gt;&lt;div&gt;+ Student(const Student&amp;amp;)&lt;/div&gt;&lt;div&gt;+ ~Student()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ GetSubject():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ GetGrade():&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ SetSubject(string):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ SetGrade(int):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ CheckGrade():&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ operator=(const Student&amp;amp;):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Student&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ operator&amp;gt;&amp;gt;(istream&amp;amp;, Student&amp;amp;):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;friend istream&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ operator&amp;lt;&amp;lt;(ostream&amp;amp;, const Student&amp;amp;):&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;friend ostream&amp;amp;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="FUp5SoC3ctOy4zWgLU7d-5" vertex="1">
+          <mxGeometry y="68" width="420" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="FUp5SoC3ctOy4zWgLU7d-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FUp5SoC3ctOy4zWgLU7d-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="650" as="sourcePoint" />
+            <mxPoint x="380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ufi74pXc2_S6HFB5Gtsz-1" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="410" as="sourcePoint" />
+            <mxPoint x="90" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ufi74pXc2_S6HFB5Gtsz-2" value="Vector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="360" width="330" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ufi74pXc2_S6HFB5Gtsz-3" value="- size: int&lt;div&gt;- cur: int&lt;/div&gt;&lt;div&gt;-start_ptr: Person**&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ufi74pXc2_S6HFB5Gtsz-2">
+          <mxGeometry y="26" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Ufi74pXc2_S6HFB5Gtsz-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ufi74pXc2_S6HFB5Gtsz-2">
+          <mxGeometry y="70" width="330" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Ufi74pXc2_S6HFB5Gtsz-5" value="+ Vector()&lt;div&gt;+ Vector(int)&lt;/div&gt;&lt;div&gt;+ ~Vector()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Add(Person *): void&lt;/div&gt;&lt;div&gt;+ operator&amp;lt;&amp;lt;(ostream&amp;amp;, const Vector&amp;amp;): friend ostream&amp;amp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ufi74pXc2_S6HFB5Gtsz-2">
+          <mxGeometry y="88" width="330" height="102" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
